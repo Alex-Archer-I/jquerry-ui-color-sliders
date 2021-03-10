@@ -1,0 +1,58 @@
+.container
+    height: 100vh
+    width: 1200px
+    margin: 0 auto
+    padding-top: 200px
+    position: relative
+
+.slider
+    margin: 20px
+    width: 300px
+
+.ui-slider-handle
+    border-radius: 100%
+    &:focus
+        outline: rgba(0, 0, 0, 0)
+
+.slider-1 .ui-slider-range
+    background: #b63939
+
+.slider-2 .ui-slider-range
+    background: #41ac3e
+
+.slider-3 .ui-slider-range
+    background: #6199ec
+
+.color
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 200px
+    width: 200px
+    border-radius: 20%
+
+.text
+    font-size: 30px
+    text-align: center
+    font-family: 'Jost', sans-serif
+
+.toggle
+    height: 50px
+    width: 100px
+    border: 3px solid #3b58b8
+    border-radius: 20px
+    background-color: #ffffff
+    color: #000000
+    font-family: 'Jost', sans-serif
+    transition: 1s all
+    font-size: 17px
+    cursor: pointer
+    &:hover
+        background-color: #3b58b8
+        color: #ffffff
+    &:focus
+        outline: rgba(0, 0, 0, 0)
+
+.active
+    background-color: #3b58b8
+    color: #ffffff
